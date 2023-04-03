@@ -1,0 +1,362 @@
+
+
+.main__box01{
+    background-color: white;
+    margin: 0 7.11rem 0 ;
+    position: absolute;
+    top: 90vh;
+    left: 0;
+    right: 0;
+    border-radius: 6px; 
+}
+
+#laptopMan{
+    position: relative;
+    bottom: -.2rem;
+    width: 100%;
+    height: 50vh;  
+    object-fit: cover;
+    border-radius: 0 0 6px 6px;
+}
+
+#box__txt{
+    margin: 0 2rem;
+    padding: 1rem;
+    gap: 2rem;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+}
+    /* #box__txt div{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+    } */
+
+#nt__title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin: 0 2rem;
+    padding: 1rem;
+    }
+
+#box__txt p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+
+.sobreNos{
+    margin:26rem 5rem 7rem;
+}
+.sobreNos h3{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    color: #28393E;
+}
+.sobreNos p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 35px;
+    letter-spacing: 0.013em;
+
+color: #3B555C;
+}
+
+/* .retanguloBG{
+    background-color: #002532;
+    height: 20vh;
+    display: flex;
+} */
+
+.retanguloBG{
+    display: flex;
+    align-items: center;
+}
+
+.backBox{
+    
+    background-color:#002532;
+    width: 10%;
+    height: 20vh;
+}
+#threeProgmers{
+    border-radius: 6px;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: auto;
+    bottom: 13rem;
+}
+
+
+.services{
+    margin:8rem ;
+}
+.services h3{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    align-items: center;
+    padding: 1rem;
+    width: 12vw;
+    height: 50vh;
+    border: #002532 solid 3px;
+    background-color: white;
+    border-radius: 6px;
+}
+.card:last-child{
+    background-color: #002532 ; 
+    color: white !important;
+}
+
+.card h4{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 24px;
+}
+.card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+}
+@media (max-width: 600px){
+    .sobreNos{
+        margin:18rem 0rem 4rem;
+    }   
+    .retanguloBG{
+        display: none;
+    }
+    #container{
+        display: none;
+    }
+    .sobreNos h3{
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    .sobreNos p{
+        text-align: center;
+    }
+    .services h3{
+        text-align: center;
+    }
+
+    .cards{
+        flex-direction: column;
+        margin: 0;
+        gap: 25px;
+    }
+    .card{
+        margin: auto;
+        align-items: center;
+        padding: 1rem;
+        width: 80%;
+        height: 30vh;
+        border: #002532 solid 3px;
+        background-color: white;
+        border-radius: 6px;
+    }
+}
+
+
+#threeProgmers{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+#ContatoNautTech h3{
+    font-size: 2rem;
+    color: #28393E;
+    margin: 2rem 7.5rem;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.backBoxContact{
+    background-color:#002532;
+    width: 90%;
+    height: 30vh;
+}
+.backBoxContact:last-child{
+    background-color:#002532;
+    width: 13%;
+    height: 30vh;
+}
+
+form {
+    width: 30%;
+    display: flex;
+    flex-direction: column; 
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+input, textarea{
+    border: none;
+    margin: 10px;
+    resize: none;
+    border-bottom: #002532 solid 2px;
+}
+
+button{
+    background-color: #002532;
+    border:none;
+    color: white;
+    width: 12rem;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.contactLinks{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7.5rem;
+    justify-content: center;
+    gap: 1.5rem  ;
+}
+.contactLinks *{
+    display: flex;
+    align-items: center;
+    gap: 10px   ;
+}
+
+.contactLinks h6{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.social__icons{
+    display: flex;
+    align-items: center ;
+    filter: invert(100%);
+}
+
+
+@media (max-width: 600px) {
+    #box__txt{
+        display: block;
+        
+    }        
+    
+    .main__box01 img{
+        display: none;
+    }
+
+    .main__box01{
+        margin: 0 1rem 0 1rem;
+        top: 83vh;
+        text-align: center;
+    }
+    #box__txt p{
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        padding-bottom: 1rem;
+    }
+    #box__txt h3{
+        font-size: 25px;
+    }
+    .cards{
+        flex-direction: column;
+        margin: 0;
+        gap: 25px;
+    }
+    .card{
+        margin: auto;
+        padding: 1rem;
+        width: 80%;
+        height: 20rem;
+        text-align: center;
+    }
+    .card p {
+        font-size: 1.2rem;
+    }
+    .services{
+        margin:0rem ;
+    }
+    .services h3{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    #contato{
+        display: none;
+    }
+
+
+
+
+
+
+
+    .contact{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    .backBoxContact{
+        background-color:#002532;
+        width: 10%;
+        height: 30vh;
+    }
+    .backBoxContact:last-child{
+        background-color:#002532;
+        width: 10%;
+        height: 30vh;
+    }
+    
+    form {
+        width: 80%;
+        display: flex;
+        flex-direction: column; 
+        background-color: white;
+        border: black solid 1px;
+        border-radius: 6px;
+        padding: 1rem;
+    }
+    
+    input, textarea{
+        border: none;
+        margin: 10px;
+        resize: none;
+        border-bottom: #002532 solid 2px;
+    }
+    
+    button{
+        background-color: #002532;
+        border:none;
+        color: white;
+        width: 12rem;
+        margin: auto;
+        font-size: 1.2rem;
+    }
+}

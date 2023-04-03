@@ -1,0 +1,102 @@
+
+
+.menu{
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+.menu *{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 76.02%;
+
+}
+
+.menu > a{
+    font-weight: 400;
+}
+.menu__links {
+    display: flex;
+gap: 6rem;
+}
+
+.imgBackGround{
+    
+    background-image: url(../images/oceanBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    background-position: center center;
+}
+
+.Landing{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+}
+
+.Landing h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 100px;
+}
+.Landing p{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 100px;
+}
+
+a#hookLink{
+    background-color: #002532;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .menu__links{
+        display: none;
+    }
+    .Landing h2{
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 50px;
+
+    }
+    .Landing p{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 50px;
+    }
+    .imgBackGround{
+    
+        height: 80vh;
+    }
+
+}
