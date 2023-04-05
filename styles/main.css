@@ -359,4 +359,9 @@ button{
         margin: auto;
         font-size: 1.2rem;
     }
+    
+    
+    .backBoxContact{
+    height: 20vh;
+}
 }
