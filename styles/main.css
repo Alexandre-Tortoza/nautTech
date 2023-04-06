@@ -201,14 +201,13 @@ color: #3B555C;
     background-color:#002532;
     width: 90%;
     height: 30vh;
-    max-height: 40vh;
+    max-height: 200px;
 }
 .backBoxContact:last-child{
     background-color:#002532;
     width: 13%;
     height: 30vh;
-    max-height: 40vh;
-    
+    max-height: 200px;
 }
 
 form {
@@ -330,11 +329,13 @@ button{
         background-color:#002532;
         width: 10%;
         height: 30vh;
+        max-height: 200px;
     }
     .backBoxContact:last-child{
         background-color:#002532;
         width: 10%;
         height: 30vh;
+        max-height: 200px;
     }
     
     form {
@@ -361,13 +362,5 @@ button{
         width: 12rem;
         margin: auto;
         font-size: 1.2rem;
-    }
-    
-    
-    .backBoxContact{
-    height: 20vh;
-    }
-    .backBoxContact:last-child{ 
-         height: 20vh;
     }
 }
