@@ -201,11 +201,14 @@ color: #3B555C;
     background-color:#002532;
     width: 90%;
     height: 30vh;
+    max-height: 40vh;
 }
 .backBoxContact:last-child{
     background-color:#002532;
     width: 13%;
     height: 30vh;
+    max-height: 40vh;
+    
 }
 
 form {
